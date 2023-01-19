@@ -44,6 +44,15 @@ def style():
     .stTextInput > label {
         color:#FFFFFF;
         }
+    .stMultiSelect > label {
+        color:#FFFFFF;
+        }
+    .stFileUpload > label {
+        color:#FFFFFF;
+        }
+    .stNumberInput > label {
+        color:#FFFFFF;
+        }
     .stSelectbox > label {
         color:#FFFFFF;
         }   
