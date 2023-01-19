@@ -75,11 +75,11 @@ oneai.multilingual = True
 oneai.MAX_CONCURRENT_REQUESTS = 5
 oneai.DEBUG_RAW_RESPONSES = True
 
-upload_csv_to_collection(
-    "./test.csv",
-    "csv_upload_test_v3",
-    row_range_end=10,
-    encoding="ISO-8859-1",
-    column_blacklist=["response"],
-    skills=["sentiments"],
-)
+# upload_csv_to_collection(
+#     "./test.csv",
+#     "csv_upload_test_v3",
+#     row_range_end=10,
+#     encoding="ISO-8859-1",
+#     column_blacklist=["response"],
+#     skills=["sentiments"],
+# )
